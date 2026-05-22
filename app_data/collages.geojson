@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "collages",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "NAME_OF_SC": "AHERO YOUTH POLYTECHNIC", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.950949207357453, -0.167376580952545 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "NAME_OF_SC": "AKADO POLY", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.796597946376359, -0.127466132750679 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "NAME_OF_SC": "ATOYA POLYTECHNIC", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.551973767226997, -0.045216438229742 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "NAME_OF_SC": "BARKORWA YOUTH TRAINING CENTRE", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.513761958021391, -0.09715983078606 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "NAME_OF_SC": "CHANDUNGUNYI YOUTH POLY", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.684967583621635, -0.011078465300165 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "NAME_OF_SC": "CONSOLATA TECHNICAL TRAINING", "LEVEL_OF_E": "TECHNICAL TRAINING INSTITUTE", "STATUS_OF_": "PRIVATE" }, "geometry": { "type": "Point", "coordinates": [ 34.844518958260814, -0.099661600979538 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "NAME_OF_SC": "GREAT LAKES UNIVERSITY OF KISUMU", "LEVEL_OF_E": "UNIVERSITY", "STATUS_OF_": "PRIVATE" }, "geometry": { "type": "Point", "coordinates": [ 34.753515035308304, -0.119390851219548 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "NAME_OF_SC": "KISUMU ROTARY YOUTH TRAINING CENTRE", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.762765230476894, -0.102372362221962 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "NAME_OF_SC": "KITAMBO YOUTH POLY", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.465588937121176, -0.127920102458769 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "NAME_OF_SC": "LANGI YOUTH POLYTECHNIC", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.506260798660428, -0.081981177650231 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "NAME_OF_SC": "LUNGA YOUTH POLYTECHNIC", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": null }, "geometry": { "type": "Point", "coordinates": [ 34.54823068823174, -0.071275126697854 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "NAME_OF_SC": "MASENO SCH FOR THE DEAF VOCATIONAL", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.599929783128317, -0.004388058801487 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "NAME_OF_SC": "MASENO UNIVERSITY", "LEVEL_OF_E": "UNIVERSITY", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.608987974995941, -0.00261321617535 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "NAME_OF_SC": "MASENO YOUTH POLYTECHNIC", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.584097447745563, -0.015740052189384 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "NAME_OF_SC": "NYALENDA KUAP TECHNICAL INSTITUTE SCH", "LEVEL_OF_E": "TECHNICAL TRAINING INSTITUTE", "STATUS_OF_": "PRIVATE" }, "geometry": { "type": "Point", "coordinates": [ 34.770285389743016, -0.113061412845797 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "NAME_OF_SC": "WACHARA YOUTH POLY", "LEVEL_OF_E": "YOUTH POLYTECHNIC", "STATUS_OF_": "PUBLIC" }, "geometry": { "type": "Point", "coordinates": [ 34.683149545319701, -0.042090714158207 ] } }
+]
+}

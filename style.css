@@ -1,0 +1,18 @@
+/* Remove default spacing from the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the map fill the entire screen */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Map container must have a height to be visible */
+#map {
+    height: 100%;
+    width: 100%;
+}
