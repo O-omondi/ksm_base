@@ -3,7 +3,7 @@ var map = L.map('map').setView([-0.0917, 34.7680], 10);
 // Base layer - OpenStreetMap
 var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
-});
+}); 
 
 // Base layer - Esri Satellite
 var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
