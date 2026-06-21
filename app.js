@@ -1,10 +1,34 @@
 // 1. Initialize the map
 var map = L.map('map').setView([-0.0917, 34.7680], 10);
-
-// 2. Add OpenStreetMap base layer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// Base layer - OpenStreetMap
+var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
-}).addTo(map);
+});
+
+// Base layer - Esri Satellite
+var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles © Esri'
+});
+
+// Base layer - Satellite Labels
+var satelliteLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Labels © Esri'
+});
+
+// Group satellite + labels together
+var satelliteWithLabels = L.layerGroup([satellite, satelliteLabels]);
+
+// Add default base layer to map
+osm.addTo(map);
+
+// Base layers object for control
+var baseLayers = {
+    "Street Map": osm,
+    "Satellite": satelliteWithLabels
+};
+
+// Add layer control
+L.control.layers(baseLayers).addTo(map);
 
 // 3. Load county boundary
 fetch('app_data/county_boundary.geojson')
