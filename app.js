@@ -24,7 +24,7 @@ osm.addTo(map);
 // Base layers object for control
 var baseLayers = {
     "Street Map": osm,
-    "Satellite": satelliteWithLabels
+    "Satellite": satellite
 };
 
 // Add layer control
